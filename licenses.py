@@ -49,9 +49,9 @@ def getOrgId(orgname):
         dic={}
         #pathPattern="/organizations-storage/organizations" #?limit=9999&query=code="
         pathPattern="/organizations/organizations" #?limit=9999&query=code="
-        okapi_url="https://okapi-liverpool.folio.ebsco.com"
-        okapi_token="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsInVzZXJfaWQiOiI2NGEyZWY0Yy04YjBkLTRlMjYtYmU3Yy1jOWNkNmM4MTYwYmMiLCJpYXQiOjE2MDI3NzM1NDMsInRlbmFudCI6ImZzMDAwMDEwNDUifQ.RoGwG6x9ivM7tJJ1d7vNZmFh5k6rfmMdT-9pLC47t_0"
-        okapi_tenant="fs00001045"
+        okapi_url=""
+        okapi_token=""
+        okapi_tenant=""
         okapi_headers = {"x-okapi-token": okapi_token,"x-okapi-tenant": okapi_tenant,"content-type": "application/json"}
         length="1"
         start="1"
